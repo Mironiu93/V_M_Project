@@ -1,0 +1,9 @@
+class Products(Categories):
+    id: int
+    category_id: int
+    price: int
+    media: str
+    total: int
+    is_published: bool
+    name_en: str
+    name: str
